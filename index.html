@@ -1,5 +1,52 @@
-<html>
-  <body>
-    <h1>Deployed via GitHub Actions and Updated via CI/CD v2</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CI/CD Deployment Demo</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      text-align: center;
+      padding-top: 80px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    p {
+      color: #555;
+      font-size: 18px;
+    }
+    .badge {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 16px;
+      background-color: #27ae60;
+      color: #fff;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .meta {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🚀 CI/CD Deployment Successful</h1>
+  <p>This page was deployed automatically via GitHub Actions</p>
+
+  <div class="badge">
+    AWS ECS (Fargate) + Amazon ECR
+  </div>
+
+  <div class="meta">
+    <p>Environment: Production</p>
+    <p>Deployed from GitHub → GitHub Actions → Amazon ECR → ECS</p>
+    <p>Commit version: v2</p>
+  </div>
+
+</body>
 </html>
